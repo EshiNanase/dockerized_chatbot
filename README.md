@@ -19,7 +19,7 @@ Then you need to build the Docker image:
 docker build -t dockerized_chatbot .
 ```
 
-After than you need to setup .env file with your own environment variables:
+After that you need to setup .env file with your own environment variables:
 ```
 DEVMAN_TOKEN = you can find it here https://dvmn.org/api/docs/
 TELEGRAM_TOKEN = token of your Telegram bot, text https://t.me/BotFather to create one
@@ -38,7 +38,7 @@ You need to clone the code from DockerHub:
 docker pull eshinanase/dockerized_chatbot
 ```
 
-After than you need to setup .env file with your own environment variables:
+After that you need to setup .env file with your own environment variables:
 ```
 DEVMAN_TOKEN = you can find it here https://dvmn.org/api/docs/
 TELEGRAM_TOKEN = token of your Telegram bot, text https://t.me/BotFather to create one
