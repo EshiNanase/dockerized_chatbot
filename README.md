@@ -28,7 +28,7 @@ TELEGRAM_CHAT_ID = you can find it here https://t.me/userinfobot
 
 And finally the Dockerfile should be ran in cmd like so:
 ```
-docker run -d --env-file .env dockerized_chatbot
+docker run -d dockerized_chatbot
 ```
 
 ## Installation 2
@@ -47,5 +47,5 @@ TELEGRAM_CHAT_ID = you can find it here https://t.me/userinfobot
 
 And finally the Dockerfile should be ran in cmd like so:
 ```
-docker run -d --env-file .env eshinanase/dockerized_chatbot
+docker run -d eshinanase/dockerized_chatbot
 ```
