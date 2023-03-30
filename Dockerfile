@@ -1,9 +1,7 @@
-FROM python:3.9-alpine3.13
+FROM python:3.9
 LABEL maintainer='eshinanase'
 
 COPY ./requirements.txt /tmp/requirements.txt
-
-
 COPY .env /app/.env
 
 RUN python -m venv . && \
