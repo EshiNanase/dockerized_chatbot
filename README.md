@@ -40,9 +40,9 @@ docker pull eshinanase/dockerized_chatbot
 
 After that you need to setup .env file with your own environment variables:
 ```
-DEVMAN_TOKEN = you can find it here https://dvmn.org/api/docs/
-TELEGRAM_TOKEN = token of your Telegram bot, text https://t.me/BotFather to create one
-TELEGRAM_CHAT_ID = you can find it here https://t.me/userinfobot
+DEVMAN_TOKEN=you can find it here https://dvmn.org/api/docs/
+TELEGRAM_TOKEN=token of your Telegram bot, text https://t.me/BotFather to create one
+TELEGRAM_CHAT_ID=you can find it here https://t.me/userinfobot
 ```
 
 And finally the Dockerfile should be ran in cmd like so:
